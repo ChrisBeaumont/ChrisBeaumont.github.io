@@ -1,0 +1,284 @@
+\documentclass[10pt]{article}
+\usepackage{charter}
+\usepackage{fullpage}
+\usepackage[resetlabels]{multibib}
+\usepackage[ManyBibs]{currvita}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{comment}
+
+% Initialize each paper type for which you need a bibliography.
+% Just a dummy parameter is necessary.
+\newcites{refpaper}{foo}
+\newcites{unrefpaper}{foo}
+\newcites{journal}{foo}
+\newcites{techreport}{foo}
+\newcites{submitpaper}{foo}
+\newcites{classproject}{foo}
+
+% Better for lists with 1-2 items and short descriptions
+\newenvironment{sublist}{%
+	\begin{list}{}{%
+		\setlength{\itemsep}{0em}\setlength{\parsep}{0em}%
+		\setlength{\topsep}{0em}\setlength{\parskip}{0em}%
+	}%
+}%
+{ \end{list} }
+
+% Better for lists with more than 2 items and/or long descriptions
+\newenvironment{subbulletlist}{%
+	\begin{list}{\labelitemii}{%
+		\setlength{\topsep}{\itemsep}\setlength{\parskip}{\parsep}%
+	}%
+}%
+{ \end{list} }
+
+\begin{document}
+\date{}
+% Specify the bibtex style that you want for each paper type
+\bibliographystyle{unsrt}
+\bibliographystylerefpaper{unsrt}
+\bibliographystyleunrefpaper{unsrt}
+\bibliographystylesubmitpaper{unsrt}
+\bibliographystylejournal{unsrt}
+\bibliographystyletechreport{unsrt}
+\bibliographystyleclassproject{ieeetr}
+
+% We'll use this length to change the defaults in some of our lists.
+\newlength{\oldcvlabelwidth}
+\renewcommand*{\cvbibname}{}
+
+% This is what will appear at the very top of your CV.
+\begin{cv}{Christopher N. Beaumont\\{\large \itshape Curriculum Vitae}}
+
+% Items have more vertical space between them than line breaks.
+% Note: if you want a linebreak after each cvlist title, you can do:
+% \begin{cvlist}{Title \hspace{3in}}
+\begin{cvlist}{Contact}
+	\item
+	\textbf{Senior Software Engineer} \\
+	Harvard-Smithsonian Center for Astrophysics \\
+	60 Garden St.\\
+	Cambridge, MA 02138\\
+	cbeaumont@cfa.harvard.edu
+
+	\item \href{http://www.chrisbeaumont.org}{http://www.chrisbeaumont.org}
+	
+\end{cvlist}
+
+\begin{cvlist}{Education}
+	\item \textbf{Institute for Astronomy, University of Hawai'i at Manoa} Honolulu, HI \\
+		Ph.D Astronomy \\
+		January 2014 \\
+		Dissertation Topic: 
+		\begin{sublist}
+		\item Morphological Diagnostics of Star Formation in Molecular Clouds \emph{(Advisors: Jonathan P. Williams and Alyssa A. Goodman)}
+		\end{sublist}
+	\item \textbf{Institute for Astronomy, University of Hawai'i at Manoa} Honolulu, HI\\
+		M.S. Astronomy\\
+		Fall 2009\\
+		Research:
+		\begin{sublist}
+		\item Molecular Rings around Interstellar Bubbles, and the Thickness of Star Forming Clouds \emph{(Advisor: Jonathan P. Williams)}
+		\item Astrometric Data Analysis in the Era of All Sky Surveys \emph{(Advisor: Eugene A. Magnier)}
+		\end{sublist}
+		
+	\item \textbf{Calvin College} Grand Rapids, MI\\
+	B.S. Physics\\
+	May 2007
+	\begin{sublist}
+		\item Minors in Mathematics and Astronomy
+		\item GPA 3.94 (Overall), 3.99 (Major)
+		\item Graduated with Honors
+	\end{sublist}
+\end{cvlist}
+
+\begin{cvlist}{Honors}
+
+\item
+	\emph{University of Hawaii University Research Council Award}
+	\begin{sublist}
+	\item Awarded in 2012
+	\end{sublist}
+
+\item
+	\emph{ARCS (Achievement Rewards for College Scientists) Foundation -- Honolulu Chapter}
+	\begin{sublist}
+	\item Awarded in 2012
+	\item Also named Honolulu-ARCS Scholar of the Year in 2012
+	\end{sublist}
+\item
+       \emph{Harvard Institute for Applied Computational Science: \\ 2012 Computational Challenge Winner}
+        \begin{sublist}
+        \item Awarded in 2012 for developing a new, efficient strategy for clearing debris off city roads after natural disasters.
+        \end{sublist}
+\item
+	\emph{PiCloud Academic Research Grant}
+	\begin{sublist}
+	\item Awarded in 2011
+	\end{sublist}
+\item
+	\emph{Smithsonian Astrophysical Observatory Predoctoral Fellowship}
+	\begin{sublist}
+	\item Awarded in 2011
+	\end{sublist}
+\item
+	\emph{Friends of the IfA Award for Excellent Masters-Level Research}
+	\begin{sublist}
+	\item Awarded in 2008
+	\end{sublist}
+
+\item
+	\emph{Barry M. Goldwater Scholarship Honorable Mention}
+	\begin{sublist}
+	\item Awarded in 2006
+	\end{sublist}
+
+\item
+	\emph{Calvin College McGregor Sophomore Scholar}
+	\begin{sublist}
+	\item Awarded in 2004
+	\end{sublist}
+
+\item
+	\emph{Calvin College Presidential Scholarship}
+	\begin{sublist}
+	\item Awarded in 2003
+	\end{sublist}
+
+\item
+	\emph{Howard Hughes Medical Institute Scholarship}
+	\begin{sublist}
+	\item Awarded in 2003
+	\end{sublist}
+
+
+\end{cvlist}
+
+% After you have finished your CV, you may need to manually insert
+% some pagebreaks to make it look nice.
+%\pagebreak
+
+% cvlist items can take dates as a parameter.
+\begin{cvlist}{Employment}
+
+	\item[11/2013-Present] \textbf{Harvard-Smithsonian Center for Astrophysics} \\
+	Senior Software Engineer
+
+	\item[06/2013--12/2013] \textbf{Harvard School of Engineering and Applied Science} \\
+	Head Teaching Fellow for CS109: Data Science \\
+
+	\item[09/2010--11/2013] \textbf{Harvard-Smithsonian Center for Astrophysics} \\
+	Predoctoral Research Fellow (\emph{Advisor: Alyssa A. Goodman}) \\
+	
+	\item[09/2007--11/2013] \textbf{University of Hawai'i at Manoa} \\
+	Undergraduate astronomy T.A. and Lab Assistant (9/2007 -- 5/2008) \\
+	Research Assistant (\emph{Advisor: Jonathan P. Williams}) \\
+	Research Assistant (\emph{Advisor: Eugene A. Magnier}) \\
+
+	\item[01/2012--06/2012] \textbf{Harvard University} \\
+	Teaching Fellow, EMR 19 \textit{The Art of Numbers}\\
+	An undergraduate-level data visualization course for non-science majors \\
+	Professor: Alyssa Goodman \\
+
+	\item[01/2011--06/2011] \textbf{Harvard-Smithsonian Center for Astrophysics} \\
+	Teaching Fellow, AY 201B \textit{The Interstellar Medium} \\
+	Graduate-level course on the interstellar medium and star formation \\
+	Professor: Alyssa Goodman \\
+	
+	\item[06/2006--08/2008] \textbf{MIT Haystack Observatory} \\
+	REU Student \\
+	Title: SiO Masers in the Orion BN-KL Outflow \\
+	Advisor: Shep Doeleman \\
+
+	\item[06/2005--08/2005] \textbf{National Solar Observatory} \\
+	REU Student \\
+	Title:	Supernovae Detection Techniques for Small Robotic Telsecopes \\
+	Advisor: Mark Giampapa \\
+
+	\item[09/2003--05/2007] \textbf{Calvin College}\\
+	Physics, Astronomy, and Mathematics Tutor \\
+	Observatory Assistant \\
+	Head Student Observer (2004--2005) \\
+	Physics Lab Assistant / Grader \\
+
+\end{cvlist}
+
+% These commands will make our papers be indented after the first line
+% to make the author's name stand out more.  Also, we reduce the
+% indentation of the paper type titles (e.g., Journal Papers,
+% Conference Paper) compared to regular cvlist items.
+\setlength{\oldcvlabelwidth}{\cvlabelwidth}
+\setlength{\cvlabelwidth}{1em}
+\renewcommand*{\bibindent}{1.5em}
+% Do bibaddtoleftmargin instead of biblabelsep if you're
+% not using manybib or open bib
+%\renewcommand*{\bibaddtoleftmargin}{1.5em}
+\newcommand*{\biblabelsep}{1.5em}
+
+
+\begin{cvlist}{Publications}
+	% With multibib, each cite command has the type after it.
+	\item \textbf{Journal Papers}
+	\begin{sublist}
+	\item ``A Simple Perspective on the Mass-Area Relationship in Molecular Clouds''\\
+	\textbf{Beaumont, Christopher N.}; Goodman, Alyssa A.; Alves, Jo\~ao F.; Lombardi, Marco; Rom\'an-Z\'u\~niga, Carlos G.; Kauffmann, Jens; Lada, Charles J. 2012 MNRAS in press \\
+	
+%	\item ``The linewidth-size relationship of dense structures in the Central Molecular Zone''\\
+%	Shetty, Rahul; \textbf{Beaumont, Christopher N.}; Burton, Michael G; 2012 MNRAS Submitted \\
+	
+	\item ``A Bubbling Nearby Molecular Cloud: COMPLETE Shells in Perseus'' \\
+          Arce, Hector G.; Borkin, Michelle A.; Goodman, Alyssa A.; Pineda, Jaime E.; \textbf{Beaumont, Christopher N.} 2011, ApJ, 742, 105 \\
+          
+	\item ``Classifying Structures in the ISM with Support Vector Machines: \\The G16.05-0.57 Supernova Remnant'' \\
+		\textbf{Beaumont, Christopher N.}; Williams, Jonathan P.; Goodman, Alyssa A. 2011, ApJ, 741, 14B\\
+	\item ``Building an Optimal Census of the Solar Neighborhood with Pan-STARRS Data" \\
+		\textbf{Beaumont, Christopher N.}; Magnier, Eugene A. 2010, PASP, 122, 1389 \\
+	\item ``Molecular Rings around Interstellar Bubbles and the Thickness of Star-Forming Clouds" \\
+		\textbf{Beaumont, Christopher N.}; Williams, Jonathan P. 2010, ApJ, 709, 791 \\
+	\item  ``Discerning the Form of the Dense Core Mass Function" \\
+		Swift, Jonathan J.; \textbf{Beaumont, Christopher N.} 2010, PASP, 122, 224 \\
+	\item ``Diverse Protostellar Evolutionary States in the Young Cluster AFGL961"  \\
+	Williams, J. P.; Mann, R. K.; \textbf{Beaumont, C. N.}; Swift, J. S.; Adams, J. D.; Hora, J.; Kassis, M.; Lada, E. A.; Roman-Zuniga, C. G. 2009, ApJ, 699, 1300-1306\\
+	\item ``Lightcurve Analysis of a Magnitude Limited Asteroid Sample" \\
+	Molnar, L.A.; Haegert, M.J.; \textbf{Beaumont, C.N.} et al. 2008 Minor Planet Bulletin 35, 9M
+	\end{sublist}
+	\item \textbf{Conference Presentations}
+	\begin{sublist}
+	\item ``Multidimensional Data Exploration with Glue''\\
+	\textbf{Beaumont, Christopher N.}; Goodman, Alyssa A; Robitaille, Thomas P;  Borkin, Michelle A \\
+	2013 SciPy Conference, Austin, TX \\
+	\item ``Linked Data Visualization in Astrophysics''\\
+	\textbf{Beaumont, Christopher N.}; Goodman, Alyssa A; Borkin, Michelle A; Robitaille, Thomas P \\
+	NRAO ALMA Software Workshop 2011 \\
+	\item ``Classifying Structures in the ISM with Machine Learning Techniques'' \\
+	\textbf{Beaumont, Christopher N}; Goodman, Alyssa A; Williams, Jonathan P. AAS 2011 \\
+	\item ``SiO Masers in the Orion BN-KL Outflow"\\
+	\textbf{Beaumont, Christopher N}; Doeleman, Sheperd S. AAS 2007
+	\end{sublist} 
+\end{cvlist}
+% Reset the label indentation
+\setlength{\cvlabelwidth}{\oldcvlabelwidth}
+
+\setlength{\oldcvlabelwidth}{\cvlabelwidth}
+\setlength{\cvlabelwidth}{1em}
+\setlength{\cvlabelwidth}{\oldcvlabelwidth}
+
+\setlength{\oldcvlabelwidth}{\cvlabelwidth}
+\setlength{\cvlabelwidth}{1em}
+\begin{comment}
+\begin{cvlist}{Technical Skills}
+	\item \textbf{Proficient}
+	\begin{sublist}
+		\item Python, IDL 
+	\end{sublist}
+	\item \textbf{Familiar} 
+	\begin{sublist}
+		\item Mathematica, C, Java, Python, PHP, Perl
+	\end{sublist}
+\end{cvlist}
+\setlength{\cvlabelwidth}{\oldcvlabelwidth}
+\end{comment}
+
+\end{cv}
+\end{document}

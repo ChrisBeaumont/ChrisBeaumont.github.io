@@ -1,0 +1,102 @@
+
+software:
+- title: Glue
+  url: http://glueviz.org
+  description: A Python application to create linked, interactive visualizations of multiple files
+- title: "CS109: Data Science"
+  url: https://github.com/cs109/content
+  description: "Assignments, labs, and handouts developed for Harvard's course on Data Science"
+- title: The ADS All Sky Survey
+  url: http://adsass.org
+  description: An interactive heatmap of astronomy publications on the sky
+- title: Astrodendro
+  url: http://dendrograms.org
+  description: "A library to create, visualize, and analyze dendrograms from astrophysical datasets"
+
+papers:
+- title: "The Milky Way Project: Leveraging Citizen Science and Machine Learning to Detect Interstellar Bubbles"
+  url: https://www.dropbox.com/s/7oztddh09geij18/ms.pdf
+  authors: "Beaumont, Christopher N., Goodman, Alyssa A., Kendrew, Sarah, Williams, Jonathan P., Simpson, Robert"
+  bib: "2013 Astrophysical Journal, Submitted"
+- title: Quantifying Observational Projection Effects Using Molecular Cloud Simulations
+  url: http://bit.ly/1iy6b4G
+  authors: "Beaumont, Christopher N., Offner, Stella S. R., Shetty, Rahul, Glover, Simon C. O., Goodman, Alyssa A."
+  bib: "2012 Astrophysical Journal, 777, 173B"
+- title: A Simple Perspective on the Mass-Area Relationship in Molecular Clouds
+  url: http://bit.ly/1iy6fS7
+  authors: "Beaumont, Christopher N., Goodman, Alyssa A., Alves, Joao, Lombardi, Marco, Roman-Zuniga, Carlos, Kauffmann, Jens, Lada, Charles"
+  bib: "2012 Monthly Notices of the Royal Astronomical Society 423, 2579B"
+- title: "Classifying Structures in the ISM with Support Vector Machines: The G16.05-0.57 Supernova Remnant"
+  url: http://bit.ly/rPZMM1
+  authors: "Beaumont, Christopher N., Williams, Jonathan P., Goodman, Alyssa A."
+  bib: "2011 Astrophysical Journal 741, 14B"
+- title: Building an Optimal Census of the Solar Neighborhood with Pan-STARRS data
+  url: http://bit.ly/rUFsC4
+  authors: "Beaumont, Christopher N., Magnier, Eugene A."
+  bib: "2010 Publications of the Astronomical Society of the Pacific 122, 1389B"
+- title: Interstellar Bubbles and the Thickness of Star-Forming Clouds
+  url: http://bit.ly/rUf1dI
+  authors: "Beaumont, Christopher N., Williams, Jonathan P."
+  bib: "2010 Astrophysical Journal 709, 791B"
+
+collaborations:
+- title: The linewidth-size relationship in the dense ISM of the Central Molecular Zone
+  url: http://bit.ly/1iy6vk3
+  authors: "Shetty, Rahul, Beaumont, Christopher N., Burton, Michael G., Kelly, Brandon C., Klessen, Ralf S."
+  bib: "2012 Monthly Notices of the Royal Astronomical Society, 425, 720S"
+- title: "A Bubbling Nearby Molecular Cloud: COMPLETE Shells in Perseus"
+  url: http://bit.ly/uVHr2Z
+  authors: "Arce, Hector G., Borkin, Michelle A., Goodman, Alyssa A., Pineda, Jaime E., Beaumont, Christopher N."
+  bib: 2011 Astrophysical Journal 742, 105A
+- title: Discerning the Form of the Core Mass Function
+  url: http://bit.ly/tRlNth
+  authors: "Swift, Jonathan J., Beaumont, Christopher N."
+  bib: "2010 Publications of the Astronomical Society of the Pacific 122, 224S"
+- title: Diverse Protostellar Evolutionary States in the Young Cluster AFGL 961
+  url: http://bit.ly/rqDC39
+  authors: "Williams, Jonathan P., Mann, Rita K., Beaumont, Christopher N. et al."
+  bib: 2009 Astrophysical Journal 699, 1300W
+
+writing:
+- title: Datrazzi
+  about: Blog
+  url: http://datarazzi.wordpress.com
+- title: Descriptors Demystified
+  about: When and how to write descriptors in Python
+  url: http://nbviewer.ipython.org/urls/gist.github.com/ChrisBeaumont/5758381/raw/descriptor_writeup.ipynb
+- title: A Rubric for Data Wrangling and Exploration
+  about: "Originally from Harvard's course on <a href=\"http://cs109.org\"> Data Science</a>"
+  url: http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb
+- title: Plot or Not?
+  about: A crowd-sourced analysis and visualization of Matplotlib plot style preferences  
+  url: http://plotornot.chrisbeaumont.org/
+- title: Oscar Correlates
+  about: An interactive visualization about which movie award ceremonies best predict the Academy Awards 
+  url: http://oscar-correlates.chrisbeaumont.org
+
+press:
+- title: Why "Big Data" is a Big Deal
+  url: http://harvardmagazine.com/2014/03/why-big-data-is-a-big-deal
+  publication: Harvard Magazine
+  date: March-April 2014  
+- title: Features | Popular Sciences
+  url: http://harvardmagazine.com/2014/01/popular-science
+  publication: Harvard Magazine
+  date: January-February 2014
+- title: Why Data Science Jobs Are in High Demand
+  url: http://www.extension.harvard.edu/hub/blog/extension-blog/why-data-science-jobs-are-high-demand
+  publication: Harvard Extension Hub
+  date: "November 27, 2013"
+- title: And the Oscar-Pool Winners Are...the Stats Dudes
+  url: http://online.wsj.com/news/articles/SB10001424127887324503204578318682787064790
+  publication: The Wall Street Journal
+  date: "February 23, 2013"
+- title: Street Smarts
+  subtitle: Tech-savvy students developed hurricane response plan in SEAS competition
+  publication: Harvard Gazette
+  date: "February 9, 2012"
+
+contact:
+  twitter: BeaumontChris
+  github: https://github.com/ChrisBeaumont
+  email: cbeaumont@cfa.harvard.edu

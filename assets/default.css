@@ -1,0 +1,68 @@
+.container {
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+.author {
+    font-size: 90%;
+}
+.section-item-label {
+    font-family: "PT Sans";
+    font-weight: bold;
+    font-size: 120%;
+}
+
+body {
+	font-family: "PT Serif", serif;	
+	color: #3F3F41; 
+    margin-bottom: 40px;   
+}
+
+::selection {
+    color:white; 
+    background-color:#FF5C5C;
+}
+
+::moz-selection {
+    color:white; 
+    background-color:#FF5C5C;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+li {
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #3F3F41;
+}
+a:hover {
+    color: #FF5C5C;
+}
+
+h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 3em;	
+}
+
+h2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 2.0em;
+}
+
+h3,h4 {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#about {
+	margin-left: 30px;
+}
+
+#about a {
+    font-weight: bold;
+}
