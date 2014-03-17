@@ -9,6 +9,9 @@ software:
 - title: The ADS All Sky Survey
   url: http://adsass.org
   description: An interactive heatmap of astronomy publications on the sky
+- title: Toasty
+  url: http://github.com/ChrisBeaumont/toasty
+  description: Tool to build WorldWide Telescope image pyramids (TOAST tiles) from arbitrary data
 - title: Astrodendro
   url: http://dendrograms.org
   description: "A library to create, visualize, and analyze dendrograms from astrophysical datasets"
@@ -68,17 +71,17 @@ writing:
   about: "Originally from Harvard's course on <a href=\"http://cs109.org\"> Data Science</a>"
   url: http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb
 - title: Plot or Not?
-  about: A crowd-sourced analysis and visualization of Matplotlib plot style preferences  
+  about: A crowd-sourced analysis and visualization of Matplotlib plot style preferences
   url: http://plotornot.chrisbeaumont.org/
 - title: Oscar Correlates
-  about: An interactive visualization about which movie award ceremonies best predict the Academy Awards 
+  about: An interactive visualization about which movie award ceremonies best predict the Academy Awards
   url: http://oscar-correlates.chrisbeaumont.org
 
 press:
 - title: Why "Big Data" is a Big Deal
   url: http://harvardmagazine.com/2014/03/why-big-data-is-a-big-deal
   publication: Harvard Magazine
-  date: March-April 2014  
+  date: March-April 2014
 - title: Features | Popular Sciences
   url: http://harvardmagazine.com/2014/01/popular-science
   publication: Harvard Magazine
