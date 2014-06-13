@@ -64,6 +64,9 @@ writing:
 - title: Datrazzi
   about: Blog
   url: http://datarazzi.wordpress.com
+- title : Exploring FBI Crime Statistics with Glue and Plotly
+  about : Demo of using Glue to explore DataFrames
+  url: http://nbviewer.ipython.org/github/ChrisBeaumont/crime/blob/master/glue_plotly_fbi.ipynb
 - title: Descriptors Demystified
   about: When and how to write descriptors in Python
   url: http://nbviewer.ipython.org/urls/gist.github.com/ChrisBeaumont/5758381/raw/descriptor_writeup.ipynb
