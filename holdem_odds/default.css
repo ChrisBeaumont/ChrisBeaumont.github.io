@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+    font-size: 40pt;
+    margin-bottom: 50px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.axis path {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+}
+
+.axis-tick line {
+  shape-rendering: crispEdges;
+  stroke: #BBB;
+}
+
+.emphasize {
+    fill: #008837;
+}
+
+#hand_val {
+    width: initial;
+    font-size: 14pt;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#ui label {
+  font-size: 14pt;
+  margin-right: 8px;
+}
+
+.d3-tip {
+  padding: 12px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 1);
+  color: #333;
+  border-radius: 8px;
+  border-color: #aaa;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.highlight {
+    stroke: #de2d26;
+    fill: #de2d26;
+}
+.highlight-box {
+    stroke: #333;
+    stroke-width: 2;
+}
+.axis {
+    font-size: 12px;
+    text-color: rgb(128, 128, 128);
+}
+
+#ui {
+  margin-bottom: 20px;
+}
+
+.red {
+    color: #de2d26
+}
+
+#plot, #plot2, #plot3, #plot4 {
+    width: 490px;
+    float: left;
+    margin-top: 5px;
+}
+
+.detail {
+    font-size: 12pt;
+    margin-left: 490px;
+    max-width: 500px;
+}
+
+
+.spacer {
+  clear:both;
+  margin-bottom: 80px;
+}
+
+
+#twitter-wjs {
+
+}
