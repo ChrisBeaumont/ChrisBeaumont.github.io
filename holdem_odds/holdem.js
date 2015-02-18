@@ -374,7 +374,7 @@
     }
     );
 
-    d3.csv('data/weighted.csv', parseData,
+    d3.csv(url + 'weighted.csv', parseData,
      function(d) {
         drawBox(svg4, tip4, d, colorScale);
     }
