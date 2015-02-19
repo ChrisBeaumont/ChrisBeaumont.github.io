@@ -9,15 +9,18 @@ software:
 - title: The ADS All Sky Survey
   url: http://adsass.org
   description: An interactive heatmap of astronomy publications on the sky
+- title: Toasty
+  url: http://github.com/ChrisBeaumont/toasty
+  description: Tool to build WorldWide Telescope image pyramids (TOAST tiles) from arbitrary data
 - title: Astrodendro
   url: http://dendrograms.org
   description: "A library to create, visualize, and analyze dendrograms from astrophysical datasets"
 
 papers:
 - title: "The Milky Way Project: Leveraging Citizen Science and Machine Learning to Detect Interstellar Bubbles"
-  url: https://www.dropbox.com/s/7oztddh09geij18/ms.pdf
+  url: http://arxiv.org/abs/1406.2692
   authors: "Beaumont, Christopher N., Goodman, Alyssa A., Kendrew, Sarah, Williams, Jonathan P., Simpson, Robert"
-  bib: "2013 Astrophysical Journal, Submitted"
+  bib: "2013 Astrophysical Journal Supplements, in press"
 - title: Quantifying Observational Projection Effects Using Molecular Cloud Simulations
   url: http://bit.ly/1iy6b4G
   authors: "Beaumont, Christopher N., Offner, Stella S. R., Shetty, Rahul, Glover, Simon C. O., Goodman, Alyssa A."
@@ -61,6 +64,9 @@ writing:
 - title: Datrazzi
   about: Blog
   url: http://datarazzi.wordpress.com
+- title : Exploring FBI Crime Statistics with Glue and Plotly
+  about : Demo of using Glue to explore DataFrames
+  url: http://nbviewer.ipython.org/github/ChrisBeaumont/crime/blob/master/glue_plotly_fbi.ipynb
 - title: Descriptors Demystified
   about: When and how to write descriptors in Python
   url: http://nbviewer.ipython.org/urls/gist.github.com/ChrisBeaumont/5758381/raw/descriptor_writeup.ipynb
@@ -68,18 +74,22 @@ writing:
   about: "Originally from Harvard's course on <a href=\"http://cs109.org\"> Data Science</a>"
   url: http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb
 - title: Plot or Not?
-  about: A crowd-sourced analysis and visualization of Matplotlib plot style preferences  
+  about: A crowd-sourced analysis and visualization of Matplotlib plot style preferences
   url: http://plotornot.chrisbeaumont.org/
 - title: Oscar Correlates
-  about: An interactive visualization about which movie award ceremonies best predict the Academy Awards 
+  about: An interactive visualization about which movie award ceremonies best predict the Academy Awards
   url: http://oscar-correlates.chrisbeaumont.org
 
 press:
+- title: The Most Intriguing Stars in the Universe
+  url: http://www.popsci.com/article/technology/most-intriguing-stars-universe-infographic
+  publication: Popular Science
+  date: May 19, 2014
 - title: Why "Big Data" is a Big Deal
   url: http://harvardmagazine.com/2014/03/why-big-data-is-a-big-deal
   publication: Harvard Magazine
-  date: March-April 2014  
-- title: Features | Popular Sciences
+  date: March-April 2014
+- title: Features | Popular Science
   url: http://harvardmagazine.com/2014/01/popular-science
   publication: Harvard Magazine
   date: January-February 2014
