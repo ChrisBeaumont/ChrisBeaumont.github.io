@@ -79,6 +79,9 @@ writing:
 - title: Oscar Correlates
   about: An interactive visualization about which movie award ceremonies best predict the Academy Awards
   url: http://oscar-correlates.chrisbeaumont.org
+- title: Hold'em Odds
+  about: An interactive visualization about odds in Texas Hold'em
+  url: holdem_odds/
 
 press:
 - title: The Chances of your Texas Hold'em Hand Winning, Visualized
