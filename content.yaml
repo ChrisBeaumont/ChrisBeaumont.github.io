@@ -81,6 +81,22 @@ writing:
   url: http://oscar-correlates.chrisbeaumont.org
 
 press:
+- title: The Chances of your Texas Hold'em Hand Winning, Visualized
+  url: http://gizmodo.com/the-chances-of-your-texas-holdem-hand-winning-visualiz-1688406848
+  publication: Gizmodo
+  date: Feb 27, 2015
+- title: Texas hold'em win probabilities
+  url: http://flowingdata.com/2015/02/27/texas-hold-em-win-probabilities/
+  publication: Flowing Data
+  date: Feb 27, 2015
+- title: Hand Strength in Texas Hold'em, Visualized
+  url: http://knowmore.washingtonpost.com/2015/02/25/hand-strength-in-texas-holdem-visualized/
+  publication: Washington Post Know More Blog
+  date: Feb 25, 2015
+- title: Weekly Data Journalism Roundup
+  url: fivethirtyeight.com/datalab/ctrl-back-poker-bisexuals-sleeping-and-showering/
+  publication: FiveThirtyEight Ctrl + ← Blog
+  date: Feb 22, 2015
 - title: The Most Intriguing Stars in the Universe
   url: http://www.popsci.com/article/technology/most-intriguing-stars-universe-infographic
   publication: Popular Science
@@ -109,4 +125,4 @@ press:
 contact:
   twitter: BeaumontChris
   github: https://github.com/ChrisBeaumont
-  email: cbeaumont@cfa.harvard.edu
+  email: cbeaumont@counsyl.com
