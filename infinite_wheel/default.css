@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif|Press+Start+2P|PT+Sans:700|Inconsolata);
+h1 {
+    font-family: 'Press Start 2P';
+    font-size: 25pt;
+    margin-bottom: 50px;
+}
+
+h2,h4 {
+  font-family: 'PT Sans';
+  font-weight: bold;
+}
+
+ul {
+}
+
+li {
+    font-family: 'Droid Serif';
+    font-size: 13pt;
+    line-height: 1.6em;
+    margin-top: 10px;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 13pt;
+  font-family: 'Droid Serif';
+  line-height: 1.6em;
+  margin-bottom: 35px;
+}
+
+
+.clue {
+  font-family:Inconsolata;
+  background-color: #f7f7f7;
+}
+.detail {
+    font-size: 12pt;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.snippet {
+  margin-bottom: 35px;
+}
+
+
+.spacer {
+  clear:both;
+  margin-bottom: 80px;
+}

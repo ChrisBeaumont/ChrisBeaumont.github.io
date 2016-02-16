@@ -82,6 +82,9 @@ writing:
 - title: Hold'em Odds
   about: An interactive visualization about odds in Texas Hold'em
   url: holdem_odds/
+- title: Wheel of Infinite Fortune
+  about: An adventure in Wheel of Fortune, retrograme metaprogramming, and the Birthday Paradox
+  url: infinite_wheel/
 
 press:
 - title: The Chances of your Texas Hold'em Hand Winning, Visualized
