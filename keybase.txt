@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/chrisbeaumont
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chrisbeaumont.org
+  * I am chrisbeaumont (https://keybase.io/chrisbeaumont) on keybase.
+  * I have a public key ASDB4h57GMHDCGEVEyzsGBh1IDft6ve0ZDdxfnCyBhLkhwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015586f9a1f15b36b126292bd61a2a88dc871de277732ae1f5a64d7d36a77cae4b0a",
+            "host": "keybase.io",
+            "kid": "0120c1e21e7b18c1c3086115132cec1818752037edeaf7b46437717e70b20612e4870a",
+            "uid": "04c5f4b45127671fe8437b26bfab4219",
+            "username": "chrisbeaumont"
+        },
+        "service": {
+            "hostname": "chrisbeaumont.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1458499855,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458499775,
+        "hash": "2fe02e3e7924012e43ad8b3dffe90b14e7915a5acf5f4acee58c038933392f274fcf54471d94ddc4ea8191bd49d5956c5a33c4ce55321563220c830a9e76356e",
+        "seqno": 415779
+    },
+    "prev": "9326dce9d56eceba4461e8e4e189c7c9331dfdd4d27bdead6a8ed30917a29946",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgweIeexjBwwhhFRMs7BgYdSA37er3tGQ3cX5wsgYS5IcKp3BheWxvYWTFAv97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNTU4NmY5YTFmMTViMzZiMTI2MjkyYmQ2MWEyYTg4ZGM4NzFkZTI3NzczMmFlMWY1YTY0ZDdkMzZhNzdjYWU0YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzFlMjFlN2IxOGMxYzMwODYxMTUxMzJjZWMxODE4NzUyMDM3ZWRlYWY3YjQ2NDM3NzE3ZTcwYjIwNjEyZTQ4NzBhIiwidWlkIjoiMDRjNWY0YjQ1MTI3NjcxZmU4NDM3YjI2YmZhYjQyMTkiLCJ1c2VybmFtZSI6ImNocmlzYmVhdW1vbnQifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNocmlzYmVhdW1vbnQub3JnIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTQifSwiY3RpbWUiOjE0NTg0OTk4NTUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ1ODQ5OTc3NSwiaGFzaCI6IjJmZTAyZTNlNzkyNDAxMmU0M2FkOGIzZGZmZTkwYjE0ZTc5MTVhNWFjZjVmNGFjZWU1OGMwMzg5MzMzOTJmMjc0ZmNmNTQ0NzFkOTRkZGM0ZWE4MTkxYmQ0OWQ1OTU2YzVhMzNjNGNlNTUzMjE1NjMyMjBjODMwYTllNzYzNTZlIiwic2Vxbm8iOjQxNTc3OX0sInByZXYiOiI5MzI2ZGNlOWQ1NmVjZWJhNDQ2MWU4ZTRlMTg5YzdjOTMzMWRmZGQ0ZDI3YmRlYWQ2YThlZDMwOTE3YTI5OTQ2Iiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQMTc1ugmWjAGvwPm4W2vtcON70dwHsa+klS7ysRmyNuyKOarFYaV0XjEJM23FEcVAkQ+I6W38jhRNQegdmiutAOoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chrisbeaumont
+
+==================================================================
