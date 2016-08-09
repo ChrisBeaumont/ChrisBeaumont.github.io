@@ -31,7 +31,7 @@
     SUITS = ["&spades;", "&hearts;", "&clubs;", "&diams;"],
     drawBox, parseData,
     MISSING = '#555',
-    url = "http://holdem-odds.chrisbeaumont.org.s3-website-us-east-1.amazonaws.com/data/",
+    url = "https://holdem-odds.chrisbeaumont.org.s3-website-us-east-1.amazonaws.com/data/",
     RANK1, SUIT1, RANK2, SUIT2;
 
     var tip = d3.tip()
